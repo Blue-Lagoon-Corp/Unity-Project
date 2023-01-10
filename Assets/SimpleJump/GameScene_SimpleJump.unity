@@ -206,7 +206,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &673877828
 BoxCollider2D:
@@ -319,9 +319,10 @@ Transform:
   m_LocalPosition: {x: -22.4, y: 44.4, z: 0}
   m_LocalScale: {x: 13, y: 13, z: 3}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1065981920}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &844841401
 Rigidbody2D:
@@ -407,17 +408,19 @@ MonoBehaviour:
   m_MovementSmoothing: 0.05
   m_AirControl: 0
   m_WhatIsGround:
-    serializedVersion: 2
     m_Bits: 0
   m_GroundCheck: {fileID: 0}
   m_CeilingCheck: {fileID: 0}
   m_CrouchDisableCollider: {fileID: 0}
+  m_Grounded: 0
+  m_Rigidbody2D: {fileID: 0}
+  m_FacingRight: 1
+  m_Velocity: {x: 0, y: 0, z: 0}
   OnLandEvent:
     m_PersistentCalls:
-      m_Calls: []
-  OnCrouchEvent:
-    m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - {m_Target: {fileID: 844841406}, m_TargetAssemblyTypeName: Run, Assembly-CSharp, m_MethodName: OnLanding, m_Mode: 1, m_Arguments: {m_ObjectArgument: {fileID: 0}, m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: , m_BoolArgument: 0}, m_CallState: 2}
+    m_CallsDirty: 1
 --- !u!114 &844841406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,9 +433,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fe08a9c3098c94a99ffdf081097100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 844841405}
-  animator: {fileID: 844841404}
-  runSpeed: 150
+  jumpForce: 1
+  runSpeed: 130
+  groundPos: {fileID: 844841400}
+  checkRadius: 0.2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1
+  jumpTime: 0.2
 --- !u!850595691 &936414479
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -582,11 +590,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065981916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.7230769, y: -3.4153848, z: -3.3333335}
+  m_LocalScale: {x: 0.07692308, y: 0.07692308, z: 0.33333334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 844841400}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1065981921
