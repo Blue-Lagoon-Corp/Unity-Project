@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: d35ac314a88575342897a12cfccdef8c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "arri\xE8re_0"
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 288
+        width: 194
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc2948b655be7741809872d3c154df9
+      internalID: 874154201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_1"
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 288
+        width: 177
+        height: 144
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f549a783dcdb14fb661005ac23a3d3
+      internalID: -783178484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_2"
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 283
+        width: 162
+        height: 151
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7823a879b55dfd54481d9c680a849457
+      internalID: 1066159892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_3"
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 283
+        width: 134
+        height: 152
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d1918bea25f3a48919dbcbcedf0626
+      internalID: -2060991263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_4"
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 283
+        width: 131
+        height: 154
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39e4e9c3f608bb44bd5fcf2f68e9806
+      internalID: -1051076597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_5"
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 283
+        width: 130
+        height: 152
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd34133d254ff24e853db72a781afe2
+      internalID: 28508664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_6"
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 283
+        width: 131
+        height: 150
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b78a3f2391fe724a82852674d1ebb70
+      internalID: 1495344440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_7"
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 283
+        width: 131
+        height: 148
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b6e5d712de4cd4e8e1020a94da920e
+      internalID: 7137075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_8"
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 284
+        width: 131
+        height: 147
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431b2c76131bbb94986acfbd5baff570
+      internalID: 413664781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_9"
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 289
+        width: 132
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ebab5922d924645999c96efcea9f01
+      internalID: 180978487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_10"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 92
+        width: 131
+        height: 141
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfcc8fb0916baa4b8b7c2a085f4df48
+      internalID: -1091163868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_11"
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 85
+        width: 130
+        height: 150
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fad7ed959af8bc44bf1a009cfce9cf6
+      internalID: 792356105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_12"
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 83
+        width: 131
+        height: 154
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c60c9de12e4646937a6555c94568e
+      internalID: -1136703674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_13"
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 83
+        width: 133
+        height: 156
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba66624f96d45184ea8bc983632b5c54
+      internalID: -917131882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_14"
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 83
+        width: 158
+        height: 155
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fa8b03649c4b3479b44b2e99e2b3a6
+      internalID: 1835164624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_15"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 83
+        width: 176
+        height: 153
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d7a671d24146a43bb8fe6d25c2a7d0
+      internalID: -760738256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_16"
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 83
+        width: 192
+        height: 151
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dec178a88e30141a8a93801a4f1b7b
+      internalID: -1798197314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "arri\xE8re_17"
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 84
+        width: 198
+        height: 147
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83757fba753320e408c88554b7da889a
+      internalID: -490685540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "arri\xE8re_8": 413664781
+      "arri\xE8re_16": -1798197314
+      "arri\xE8re_10": -1091163868
+      "arri\xE8re_13": -917131882
+      "arri\xE8re_7": 7137075
+      "arri\xE8re_17": -490685540
+      "arri\xE8re_0": 874154201
+      "arri\xE8re_12": -1136703674
+      "arri\xE8re_14": 1835164624
+      "arri\xE8re_9": 180978487
+      "arri\xE8re_2": 1066159892
+      "arri\xE8re_6": 1495344440
+      "arri\xE8re_5": 28508664
+      "arri\xE8re_3": -2060991263
+      "arri\xE8re_15": -760738256
+      "arri\xE8re_11": 792356105
+      "arri\xE8re_4": -1051076597
+      "arri\xE8re_1": -783178484
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
