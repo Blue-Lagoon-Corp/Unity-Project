@@ -3,11 +3,19 @@ using TMPro;
 
 public class PickCoffee : MonoBehaviour
 {
-    public TextMeshProUGUI score;
+    public int scoreToGive;
+
+    public float speedToAdd;
+
+    private PlayerController player;
+
+    private ScoreManager scoreManager;
     
     // Start is called before the first frame update
     void Start()
     {
+        scoreManager = FindObjectOfType<ScoreManager>();
+        player = FindObjectOfType<PlayerController>();
         
     }
 
@@ -21,9 +29,9 @@ public class PickCoffee : MonoBehaviour
     {
         if(collision.gameObject.name == "Player")
         {
-            int oldScore = int.Parse(score.text)+10;
-            score.text = ""+oldScore;
+            scoreManager.AddScore(scoreToGive);
             gameObject.SetActive(false);
+            player.AddSpeed(speedToAdd);
         }
     }
 }

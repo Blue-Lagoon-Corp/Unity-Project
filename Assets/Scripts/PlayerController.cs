@@ -116,4 +116,9 @@ public class PlayerController : MonoBehaviour
             speedIncreaseMilestone = speedIncreaseMilestoneStore;
         }
     }
+
+    public void AddSpeed(float speedToAdd)
+    {
+        moveSpeed += speedToAdd;
+    }
 }
