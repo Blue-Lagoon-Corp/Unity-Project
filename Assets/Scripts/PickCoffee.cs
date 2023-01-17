@@ -1,11 +1,14 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class PickCoffee : MonoBehaviour
 {
     public int scoreToGive;
 
     public float speedToAdd;
+
+    //public TextMeshProUGUI bonusText;
 
     private PlayerController player;
 
@@ -16,7 +19,7 @@ public class PickCoffee : MonoBehaviour
     {
         scoreManager = FindObjectOfType<ScoreManager>();
         player = FindObjectOfType<PlayerController>();
-        
+        //bonusText.enabled = false;        
     }
 
     // Update is called once per frame
@@ -32,6 +35,14 @@ public class PickCoffee : MonoBehaviour
             scoreManager.AddScore(scoreToGive);
             gameObject.SetActive(false);
             player.AddSpeed(speedToAdd);
+            //TextCooldown();
         }
     }
+
+    /*public IEnumerator TextCooldown()
+    {
+        bonusText.enabled = true;
+        yield return new WaitForSeconds(2f);
+        bonusText.enabled = false;
+    }*/
 }
