@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
 
     private ScoreManager scoreManager;
 
+    public DeathMenu deathScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,10 +34,32 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        StartCoroutine(RestartGameCoroutine());
+        scoreManager.scoreIncreasing = false;
+        player.gameObject.SetActive(false);
+        deathScreen.gameObject.SetActive(true);
+        //StartCoroutine(RestartGameCoroutine());
     }
 
-    public IEnumerator RestartGameCoroutine()
+    public void Reset()
+    {
+        deathScreen.gameObject.SetActive(false);
+
+        platformList = FindObjectsOfType<PlatformDestroyer>();
+
+        for (int i = 0; i < platformList.Length; i++)
+        {
+            platformList[i].gameObject.SetActive(false);
+        }
+
+        player.transform.position = playerStartPoint;
+        platformGenerator.position = platformStartPoint;
+        player.gameObject.SetActive(true);
+
+        scoreManager.scoreCount = 0;
+        scoreManager.scoreIncreasing = true;
+    }
+
+    /*public IEnumerator RestartGameCoroutine()
     {
 
         scoreManager.scoreIncreasing = false;
@@ -54,5 +78,5 @@ public class GameManager : MonoBehaviour
 
         scoreManager.scoreCount = 0;
         scoreManager.scoreIncreasing = true;
-    }
+    }*/
 }
