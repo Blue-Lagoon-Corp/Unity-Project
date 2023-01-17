@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
 
     public float groundCheckRadius;
 
+    private bool stoppedJumping;
+
     private Collider2D playerCollider;
 
     private Animator playerAnimator;
@@ -56,6 +58,7 @@ public class PlayerController : MonoBehaviour
         speedMilestoneCountStore = speedMilestoneCount;
 
         speedIncreaseMilestoneStore = speedIncreaseMilestone;
+        stoppedJumping = true;
     }
 
     // Update is called once per frame
@@ -79,11 +82,12 @@ public class PlayerController : MonoBehaviour
             if (grounded)
             {
                 playerRigidBody.velocity = new Vector2(playerRigidBody.velocity.x, jumpForce);
+                stoppedJumping = false;
             }
           
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && !stoppedJumping)
         {
             if(jumpTimeCounter > 0)
             {
@@ -95,6 +99,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space))
         {
             jumpTimeCounter = 0;
+            stoppedJumping = true;
         }
 
         if (grounded)

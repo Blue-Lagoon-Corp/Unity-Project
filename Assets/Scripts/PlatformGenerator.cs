@@ -16,6 +16,8 @@ public class PlatformGenerator : MonoBehaviour
 
     public float distanceBetweenMax;
 
+    private CoffeeCupsGenerator coffeeCupsGenerator;
+
     //public GameObject[] platforms;
 
     private int platformSelector;
@@ -34,6 +36,8 @@ public class PlatformGenerator : MonoBehaviour
 
     private float heightChange;
 
+    public float randomCoffeeCupThreshold;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +51,8 @@ public class PlatformGenerator : MonoBehaviour
 
         minimumHeight = transform.position.y;
         maximumHeight = maximumHeightPoint.position.y;
+
+        coffeeCupsGenerator = FindObjectOfType<CoffeeCupsGenerator>();
     }
 
     // Update is called once per frame
@@ -82,6 +88,12 @@ public class PlatformGenerator : MonoBehaviour
             newPlatform.transform.position = transform.position;
             newPlatform.transform.rotation = transform.rotation;
             newPlatform.SetActive(true);
+
+            if(Random.Range(0f,100f) < randomCoffeeCupThreshold)
+            {
+                coffeeCupsGenerator.SpawnCoffeCups(new Vector3(transform.position.x, transform.position.y + 100f, transform.position.z));
+
+            }
 
             transform.position = new Vector3(transform.position.x + (platformWidths[platformSelector] / 2),
                 transform.position.y,
