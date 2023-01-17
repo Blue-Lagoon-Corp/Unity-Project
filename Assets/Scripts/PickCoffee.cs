@@ -13,12 +13,16 @@ public class PickCoffee : MonoBehaviour
     private PlayerController player;
 
     private ScoreManager scoreManager;
+
+    private AudioSource coffeeSound;
     
     // Start is called before the first frame update
     void Start()
     {
         scoreManager = FindObjectOfType<ScoreManager>();
         player = FindObjectOfType<PlayerController>();
+
+        coffeeSound = GameObject.Find("CoffeeSound").GetComponent<AudioSource>();
         //bonusText.enabled = false;        
     }
 
@@ -35,6 +39,7 @@ public class PickCoffee : MonoBehaviour
             scoreManager.AddScore(scoreToGive);
             gameObject.SetActive(false);
             player.AddSpeed(speedToAdd);
+            coffeeSound.Play();
             //TextCooldown();
         }
     }

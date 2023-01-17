@@ -41,6 +41,8 @@ public class PlayerController : MonoBehaviour
 
     public GameManager gameManager;
 
+    public AudioSource deathSound;
+
 
     // Start is called before the first frame update
     void Start()
@@ -119,6 +121,7 @@ public class PlayerController : MonoBehaviour
             moveSpeed = moveSpeedStore;
             speedMilestoneCount = speedMilestoneCountStore;
             speedIncreaseMilestone = speedIncreaseMilestoneStore;
+            deathSound.Play();
         }
     }
 
