@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/MainMenu.unity
     guid: e8366b262787a4cdaa2675d752656561
   - enabled: 1
+    path: Assets/HallOfFame.unity
+    guid: 401b3fa24735a4bc8bbd72eb870858d5
+  - enabled: 1
     path: Assets/PayeTonKawa.unity
     guid: c4546933019afe7478b3a870cf98a64e
   m_configObjects: {}
